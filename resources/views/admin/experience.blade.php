@@ -40,6 +40,8 @@
         @error('status')
         <div class="alert alert-danger">{{ $message }}</div>
         @enderror
+        <br>
+        <button type="submit">save</button>
     </form>
 @endsection
 
